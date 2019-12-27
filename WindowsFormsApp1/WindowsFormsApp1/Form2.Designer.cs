@@ -129,7 +129,7 @@
             this.Controls.Add(this.txtİsim);
             this.Controls.Add(this.lblİsim);
             this.Name = "Form2";
-            this.Text = "Form2";
+            this.Text = "Numara Ekle";
             this.ResumeLayout(false);
             this.PerformLayout();
 

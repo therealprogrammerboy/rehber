@@ -88,7 +88,7 @@
             this.Controls.Add(this.txtNumara);
             this.Controls.Add(this.lblGunKulNumara);
             this.Name = "Form4";
-            this.Text = "Form4";
+            this.Text = "Numara Güncelle ";
             this.Load += new System.EventHandler(this.Form4_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

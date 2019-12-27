@@ -95,7 +95,7 @@
             this.Controls.Add(this.btnEkle);
             this.Controls.Add(this.lblYapilacakİslem);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Rehber Otomasyon";
             this.ResumeLayout(false);
             this.PerformLayout();
 

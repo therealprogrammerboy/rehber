@@ -68,7 +68,7 @@
             this.Controls.Add(this.txtSİlinecekKisiNumarası);
             this.Controls.Add(this.lblSilinecekKisiNumara);
             this.Name = "Form3";
-            this.Text = "Form3";
+            this.Text = "Numara Sil";
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -30,16 +30,16 @@
         {
             this.components = new System.ComponentModel.Container();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.rehberDataSet = new WindowsFormsApp1.rehberDataSet();
-            this.kayıtlarBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.kayıtlarTableAdapter = new WindowsFormsApp1.rehberDataSetTableAdapters.kayıtlarTableAdapter();
             this.isimDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.soyisimDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.numaraDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.sehirDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.kayıtlarBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.rehberDataSet = new WindowsFormsApp1.rehberDataSet();
+            this.kayıtlarTableAdapter = new WindowsFormsApp1.rehberDataSetTableAdapters.kayıtlarTableAdapter();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.rehberDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.kayıtlarBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.rehberDataSet)).BeginInit();
             this.SuspendLayout();
             // 
             // dataGridView1
@@ -56,20 +56,6 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(445, 303);
             this.dataGridView1.TabIndex = 0;
-            // 
-            // rehberDataSet
-            // 
-            this.rehberDataSet.DataSetName = "rehberDataSet";
-            this.rehberDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // kayıtlarBindingSource
-            // 
-            this.kayıtlarBindingSource.DataMember = "kayıtlar";
-            this.kayıtlarBindingSource.DataSource = this.rehberDataSet;
-            // 
-            // kayıtlarTableAdapter
-            // 
-            this.kayıtlarTableAdapter.ClearBeforeFill = true;
             // 
             // isimDataGridViewTextBoxColumn
             // 
@@ -95,6 +81,20 @@
             this.sehirDataGridViewTextBoxColumn.HeaderText = "sehir";
             this.sehirDataGridViewTextBoxColumn.Name = "sehirDataGridViewTextBoxColumn";
             // 
+            // kayıtlarBindingSource
+            // 
+            this.kayıtlarBindingSource.DataMember = "kayıtlar";
+            this.kayıtlarBindingSource.DataSource = this.rehberDataSet;
+            // 
+            // rehberDataSet
+            // 
+            this.rehberDataSet.DataSetName = "rehberDataSet";
+            this.rehberDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // kayıtlarTableAdapter
+            // 
+            this.kayıtlarTableAdapter.ClearBeforeFill = true;
+            // 
             // Form5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -102,11 +102,11 @@
             this.ClientSize = new System.Drawing.Size(472, 327);
             this.Controls.Add(this.dataGridView1);
             this.Name = "Form5";
-            this.Text = "Form5";
+            this.Text = "Numaraları Listele";
             this.Load += new System.EventHandler(this.Form5_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.rehberDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.kayıtlarBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.rehberDataSet)).EndInit();
             this.ResumeLayout(false);
 
         }
