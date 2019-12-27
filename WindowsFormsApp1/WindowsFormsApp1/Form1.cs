@@ -14,6 +14,7 @@ namespace WindowsFormsApp1
     {
         public Form1()
         {
+            MessageBox.Show("No : 181809029\nÖmer Akincir\nManisa Celal Bayar Üniversitesi Kırkağaç MYO\nDers : Nesne Tabanlı Programlama\nGithub Linki : https://github.com/therealprogrammerboy/rehber");
             InitializeComponent();
         }
 
