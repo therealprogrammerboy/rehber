@@ -34,7 +34,7 @@ namespace WindowsFormsApp1
             string gelenYeniNumara = txtYeniNumara.Text;
             SqlConnection baglantı = new SqlConnection("Data Source=DESKTOP-6K8V3U6;Initial Catalog=rehber;Integrated Security=true;");
             baglantı.Open();
-            string sqlSorgu = "update kayıtlar set numara='"+txtYeniNumara+"' where numara='"+txtNumara+"'";
+            string sqlSorgu = "update kayıtlar set numara='"+gelenYeniNumara+"' where numara='"+gelenEskiNumara+"'";
             SqlCommand cmd = new SqlCommand(sqlSorgu, baglantı);
             cmd.ExecuteNonQuery();
             MessageBox.Show("Güncelleme Başarılı !");
